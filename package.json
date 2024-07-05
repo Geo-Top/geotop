@@ -3,15 +3,23 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+<<<<<<< HEAD
   "homepage": "https://geo-top.github.io/geotop",
+=======
+  "homepage": "https://geo-top.github.io/",
+>>>>>>> 047ca8f4f4cf3b438d4eedc4dc6c5e56c4e7b275
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+<<<<<<< HEAD
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
     
+=======
+    "preview": "vite preview"
+>>>>>>> 047ca8f4f4cf3b438d4eedc4dc6c5e56c4e7b275
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -45,7 +53,10 @@
     "eslint-plugin-react": "^7.34.2",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+<<<<<<< HEAD
     "gh-pages": "^6.1.1",
+=======
+>>>>>>> 047ca8f4f4cf3b438d4eedc4dc6c5e56c4e7b275
     "vite": "^5.3.1"
   }
 }
