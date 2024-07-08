@@ -30,7 +30,7 @@ export default function MenuComp({ handleClose, anchorEl, menuItems }) {
             >
                 {menuItems.map((item, index) => (
                     <li key={index} onClick={handleClose} style={{ listStyleType: 'none' }}>
-                        <StyledLink to={`/${item.replace(/ /g, "").toLowerCase()}page`}>
+                        <StyledLink to={`/geotop/${item.replace(/ /g, "").toLowerCase()}page`}>
                             {item}
                         </StyledLink>
                     </li>
