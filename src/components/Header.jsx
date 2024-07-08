@@ -188,7 +188,7 @@ export default function Header({
                       />
                     </>
                   ) : (
-                    <Link to={`/${item.replace(/ /g, "").toLowerCase()}`}>
+                    <Link to={`/geotop/${item.replace(/ /g, "").toLowerCase()}`}>
                       <Button sx={{ color: theme.palette.blackbg.main }}>
                         {item}
                       </Button>
