@@ -3,16 +3,16 @@ import { Brush, Devices, Palette, Accessibility, Code, PhoneIphone } from '@mui/
 
 const services = [
   {
-    title: 'UI/UX Design',
+    title: 'UI UX Design',
     description: 'Creating user-friendly and visually appealing designs.',
-    icon: <Brush fontSize="large" color="action" />,
+    icon: <Brush fontSize="large" color="info" />,
     image: 'https://source.unsplash.com/random?ui',
     details: 'Our UI/UX design services focus on creating user-friendly and visually appealing interfaces. We ensure that the design enhances the user experience and provides an intuitive interaction with your application or website. Our team of designers uses the latest tools and techniques to create engaging and functional designs that meet the specific needs of your target audience.'
   },
   {
     title: 'Responsive Design',
     description: 'Ensuring your website looks great on all devices.',
-    icon: <Devices fontSize="large" color="action" />,
+    icon: <Devices fontSize="large" color="warning" />,
     image: 'https://source.unsplash.com/random?responsive',
     details: 'Our responsive design services ensure that your website looks great and functions well on all devices, from desktops to smartphones. We use flexible layouts and media queries to create designs that adapt to different screen sizes, providing a seamless experience for your users, no matter how they access your site.'
   },
@@ -26,7 +26,7 @@ const services = [
   {
     title: 'Accessibility Design',
     description: 'Designing websites that are accessible to everyone.',
-    icon: <Accessibility fontSize="large" color="action" />,
+    icon: <Accessibility fontSize="large" color="info" />,
     image: 'https://source.unsplash.com/random?accessibility',
     details: 'Our accessibility design services ensure that your website is usable by everyone, including people with disabilities. We follow the best practices and guidelines for web accessibility, such as WCAG, to create inclusive designs. Our goal is to make your site accessible to a wider audience, improving user experience and compliance.'
   },

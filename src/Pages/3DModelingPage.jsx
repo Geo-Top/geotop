@@ -12,7 +12,7 @@ const services = [
   {
     title: "3D Modeling Services",
     description: "High-quality 3D modeling services for various applications.",
-    icon: <ThreeDRotation fontSize="large" color="action" />,
+    icon: <ThreeDRotation fontSize="large" color="warning" />,
     image: "https://source.unsplash.com/random?3dmodel",
     details:
       "Our 3D modeling services provide detailed and accurate representations of objects, environments, and concepts. Using advanced software and techniques, we create high-quality models that meet your specific needs, whether for visualization, simulation, or production purposes. Trust our team to deliver precise and visually appealing 3D models that bring your projects to life.",
@@ -20,7 +20,7 @@ const services = [
   {
     title: "3D Animation",
     description: "Dynamic 3D animations to showcase your ideas effectively.",
-    icon: <Animation fontSize="large" color="action" />,
+    icon: <Animation fontSize="large" color="info" />,
     image: "https://source.unsplash.com/random?3danimation",
     details:
       "Our 3D animation services bring your ideas to life through dynamic and engaging animations. We use cutting-edge technology to create animations that effectively communicate your vision, whether for marketing, education, or entertainment. Let our experts transform your concepts into captivating animated sequences that leave a lasting impression.",
@@ -36,7 +36,7 @@ const services = [
   {
     title: "3D Scanning",
     description: "Precise 3D scanning services for accurate digital models.",
-    icon: <Scanner fontSize="large" color="action" />,
+    icon: <Scanner fontSize="large" color="success" />,
     image: "https://source.unsplash.com/random?3dscanning",
     details:
       "Our 3D scanning services capture precise digital models of real-world objects and environments. Using state-of-the-art scanning technology, we provide accurate and detailed scans that can be used for analysis, replication, and more. Our 3D scanning solutions are ideal for industries such as manufacturing, heritage preservation, and medical applications.",

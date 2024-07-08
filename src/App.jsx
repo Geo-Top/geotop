@@ -24,6 +24,7 @@ import OurProject from "./Pages/OurProject";
 import Careers from "./Pages/careers";
 import ContactUs from "./Pages/ContactUs";
 import Services from "./Pages/Services";
+import NotFoundPage from "./Pages/NotFoundPage";
 function getDesignTokens(mode) {
   return {
     palette: {
@@ -88,10 +89,12 @@ function App(props) {
                 <Route path="/digitalmarketingpage" element={<DigitalMarketingPage/>} />
                 <Route path="/bimpage" element={<BIMPage/>} />
                 <Route path="/3dmodelingpage" element={<D3ModelingPage/>} />
+                <Route path="*" element={<NotFoundPage/>} />
               </Routes>
             </Box>
           </Box>
           <Footer />
+          
         </Router>
       </ThemeProvider>
     </>

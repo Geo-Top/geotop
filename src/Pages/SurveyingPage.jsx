@@ -13,7 +13,7 @@ const services = [
   {
     title: "Land Surveying",
     description: "Accurate measurement and mapping of land areas.",
-    icon: <Terrain fontSize="large" color="action" />,
+    icon: <Terrain fontSize="large" color="success" />,
     image: "https://source.unsplash.com/random?land-surveying",
     details:
       "Our land surveying services provide precise measurement and mapping of land areas. We use the latest technology to deliver detailed and accurate surveys for property boundaries, construction projects, and land development.",
@@ -21,7 +21,7 @@ const services = [
   {
     title: "Topographic Surveys",
     description: "Detailed mapping of terrain features and elevations.",
-    icon: <Explore fontSize="large" color="action" />,
+    icon: <Explore fontSize="large" color="warning" />,
     image: "https://source.unsplash.com/random?topographic-survey",
     details:
       "Our topographic survey services offer detailed mapping of terrain features and elevations. This information is essential for planning and design in construction, engineering, and environmental projects.",
@@ -54,7 +54,7 @@ const services = [
     title: "Custom Survey Solutions",
     description:
       "Developing tailored surveying solutions to meet specific needs.",
-    icon: <Code fontSize="large" color="primary" />,
+    icon: <Code fontSize="large" color="info" />,
     image: "https://source.unsplash.com/random?custom-survey",
     details:
       "Our custom survey solutions cater to the unique requirements of your projects. We provide bespoke surveying services that align with your objectives, ensuring high-quality results for your needs.",

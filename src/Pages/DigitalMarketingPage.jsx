@@ -5,14 +5,14 @@ const services = [
   {
     title: 'Social Media Marketing',
     description: 'Boost your online presence with targeted social media strategies.',
-    icon: <SocialDistance fontSize="large" color="primary" />,
+    icon: <SocialDistance fontSize="large" color="info" />,
     image: 'https://source.unsplash.com/random?social-media',
     details: 'Our social media marketing services help you boost your online presence and engage with your audience through targeted strategies on various platforms such as Facebook, Instagram, Twitter, and LinkedIn.'
   },
   {
     title: 'SEO',
     description: 'Improve your website ranking on search engines.',
-    icon: <Search fontSize="large" color="secondary" />,
+    icon: <Search fontSize="large" color="error" />,
     image: 'https://source.unsplash.com/random?seo',
     details: 'Our SEO services improve your website’s ranking on search engines like Google. We use proven techniques to increase your visibility and drive organic traffic to your site.'
   },

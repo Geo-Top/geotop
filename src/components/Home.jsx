@@ -50,14 +50,14 @@ export default function Home() {
         >
           <Typography
             variant="h2"
-            color="primary.main"
+            color="white"
             fontSize={getFontSize(35)}
           >
             Welcome to Geo Top
           </Typography>
           <Typography
             variant="h2"
-            color="primary.main"
+            color="white"
             fontSize={getFontSize(35)}
             marginY="12px"
           >
@@ -65,7 +65,7 @@ export default function Home() {
           </Typography>
           <Typography
             variant="h3"
-            color="primary.main"
+            color="white"
             fontSize={getFontSize(23)}
             lineHeight="36px"
           >

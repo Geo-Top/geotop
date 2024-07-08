@@ -5,14 +5,14 @@ const services = [
   {
     title: '3D Modeling',
     description: 'Creating detailed 3D models of buildings and infrastructure.',
-    icon: <Engineering fontSize="large" color="action" />,
+    icon: <Engineering fontSize="large" color="success" />,
     image: 'https://source.unsplash.com/random?3d-modeling',
     details: 'Our 3D modeling services provide detailed and accurate representations of buildings and infrastructure. Using advanced BIM software, we create comprehensive models that assist in design, analysis, and visualization.'
   },
   {
     title: 'Structural Design',
     description: 'Designing structural elements for safety and stability.',
-    icon: <Build fontSize="large" color="action" />,
+    icon: <Build fontSize="large" color="error" />,
     image: 'https://source.unsplash.com/random?structural-design',
     details: 'Our structural design services focus on creating safe and stable structures. We use BIM to design and analyze structural elements, ensuring they meet all safety standards and perform well under various conditions.'
   },
@@ -40,7 +40,7 @@ const services = [
   {
     title: 'Custom BIM Solutions',
     description: 'Developing tailored BIM solutions to meet specific needs.',
-    icon: <Code fontSize="large" color="primary" />,
+    icon: <Code fontSize="large" color="info" />,
     image: 'https://source.unsplash.com/random?bim-solutions',
     details: 'Our custom BIM solutions cater to the unique requirements of your projects. We provide bespoke BIM services that align with your objectives, ensuring high-quality results for your needs.'
   }

@@ -5,14 +5,14 @@ const trainings = [
   {
     title: 'GIS course',
     description: 'Learn Geographic Information Systems (GIS) to manage and analyze spatial data.',
-    icon: <Map fontSize="large" color="primary" />,
+    icon: <Map fontSize="large" color="info" />,
     image: 'https://source.unsplash.com/random?gis',
     details: 'Our GIS training covers the basics and advanced techniques of Geographic Information Systems, focusing on spatial data management, analysis, and visualization.'
   },
   {
     title: 'Web GIS course',
     description: 'Develop skills to create and manage GIS applications on the web.',
-    icon: <Public fontSize="large" color="secondary" />,
+    icon: <Public fontSize="large" color="error" />,
     image: 'https://source.unsplash.com/random?web-gis',
     details: 'Our Web GIS training provides you with the knowledge to develop, deploy, and manage GIS applications on the web using popular frameworks and technologies.'
   },

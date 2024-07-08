@@ -4,7 +4,7 @@ import Icons from "./Icons";
 import { IconButton } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 export default function Footer() {
   return (
     <Box
@@ -67,142 +67,33 @@ export default function Footer() {
           </Box>
           <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
             <Link
-              href="tel:+201204698455"
+              href="tel:+201040950801"
               color="inherit"
               sx={{ display: "inline-flex", alignItems: "center", gap: 1 }}
             >
               <IconButton color="inherit">
                 <LocalPhoneIcon />
               </IconButton>
-              <Typography variant="body2">+20 120-469-8455</Typography>
+              <Typography variant="body2">+20 104-095-0801</Typography>
             </Link>
           </Box>
           <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
             <Link
-              href="https://wa.me/01204698455"
+              href="https://wa.me/01040950801"
               color="inherit"
               sx={{ display: "inline-flex", alignItems: "center", gap: 1 }}
             >
               <IconButton color="inherit">
-                <WhatsAppIcon/>
+                <WhatsAppIcon />
               </IconButton>
-              <Typography variant="body2">+20 120-469-8455</Typography>
+              <Typography variant="body2">+20 104-095-0801</Typography>
             </Link>
           </Box>
         </Box>
         <Box className="footer__social" sx={{ display: "flex", gap: 1 }}>
-          <Link href="#" color="inherit" sx={{ display: "inline-block" }}>
-            <Icons />
-          </Link>
+          <Icons />
         </Box>
       </Box>
-
-      {/* {["Company", "Pages", "Legal", "Resources"].map((section, index) => (
-        <Box key={index} className="footer__section" sx={{ mb: 2 }}>
-          <Typography variant="h6" component="div" sx={{ mb: 1 }}>
-            {section}
-          </Typography>
-          <Box component="ul" sx={{ p: 0, m: 0, listStyle: "none" }}>
-            {section === "Company" && (
-              <>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    About Us
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Careers
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Press
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Blog
-                  </Link>
-                </Box>
-              </>
-            )}
-            {section === "Pages" && (
-              <>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Login
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Register
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Add list
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Contact
-                  </Link>
-                </Box>
-              </>
-            )}
-            {section === "Legal" && (
-              <>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Terms
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    About Us
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Team
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Privacy
-                  </Link>
-                </Box>
-              </>
-            )}
-            {section === "Resources" && (
-              <>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Blog
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Service
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Product
-                  </Link>
-                </Box>
-                <Box component="li">
-                  <Link href="#" color="inherit" underline="hover">
-                    Pricing
-                  </Link>
-                </Box>
-              </>
-            )}
-          </Box>
-        </Box>
-      ))} */}
-
       <Box className="footer__bottom" sx={{ mt: 4, textAlign: "center" }}>
         <Typography variant="body2" color="textSecondary">
           All rights reserved © Geo Top 2024
