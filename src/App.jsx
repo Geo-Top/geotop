@@ -73,23 +73,23 @@ function App(props) {
               <Routes>
                 <Route path="/geotop" element={<Home />} />
                 <Route path="/" element={<Home />} />
-                <Route path="/home" element={<Home/>} />
-                <Route path="/ourprojects" element={<OurProject/>} />
-                <Route path="/careers" element={<Careers/>} />
-                <Route path="/gispage" element={<GisPage/>} />
-                <Route path="/contactus" element={<ContactUs/>} />
-                <Route path="/services" element={<Services/>} />
-                <Route path="/websitedesignpage" element={<WebsiteDesignPage/>} />
-                <Route path="/webdevelopmentpage" element={<WebDevelopmentPage/>} />
-                <Route path="/trainingpage" element={<TrainingPage/>} />
-                <Route path="/surveyingpage" element={<SurveyingPage/>} />
-                <Route path="/rspage" element={<RSPage/>} />
-                <Route path="/mobileapplicationpage" element={<MobileApplicationPage/>} />
-                <Route path="/graphicdesignpage" element={<GraphicDesignPage/>} />
-                <Route path="/droneImageprocessingpage" element={<DroneImageProcessingPage/>} />
-                <Route path="/digitalmarketingpage" element={<DigitalMarketingPage/>} />
-                <Route path="/bimpage" element={<BIMPage/>} />
-                <Route path="/3dmodelingpage" element={<D3ModelingPage/>} />
+                <Route path="/geotop/home" element={<Home/>} />
+                <Route path="/geotop/ourprojects" element={<OurProject/>} />
+                <Route path="/geotop/careers" element={<Careers/>} />
+                <Route path="/geotop/gispage" element={<GisPage/>} />
+                <Route path="/geotop/contactus" element={<ContactUs/>} />
+                <Route path="/geotop/services" element={<Services/>} />
+                <Route path="/geotop/websitedesignpage" element={<WebsiteDesignPage/>} />
+                <Route path="/geotop/webdevelopmentpage" element={<WebDevelopmentPage/>} />
+                <Route path="/geotop/trainingpage" element={<TrainingPage/>} />
+                <Route path="/geotop/surveyingpage" element={<SurveyingPage/>} />
+                <Route path="/geotop/rspage" element={<RSPage/>} />
+                <Route path="/geotop/mobileapplicationpage" element={<MobileApplicationPage/>} />
+                <Route path="/geotop/graphicdesignpage" element={<GraphicDesignPage/>} />
+                <Route path="/geotop/droneImageprocessingpage" element={<DroneImageProcessingPage/>} />
+                <Route path="/geotop/digitalmarketingpage" element={<DigitalMarketingPage/>} />
+                <Route path="/geotop/bimpage" element={<BIMPage/>} />
+                <Route path="/geotop/3dmodelingpage" element={<D3ModelingPage/>} />
                 <Route path="*" element={<NotFoundPage/>} />
               </Routes>
             </Box>
