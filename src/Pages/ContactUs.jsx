@@ -23,7 +23,6 @@ function ContactUs() {
       };
     
   return (
-
       <Container maxWidth="sm" style={{ marginTop: '5rem' , marginBottom: "2rem" }}>
         <Typography variant="h4" align="center" gutterBottom>
           Contact Us

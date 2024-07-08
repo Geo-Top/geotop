@@ -71,6 +71,7 @@ function App(props) {
             />
             <Box component="main" sx={{ mx: "auto" }} width={"100%"}>
               <Routes>
+                <Route path="/geotop" element={<Home />} />
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home/>} />
                 <Route path="/ourprojects" element={<OurProject/>} />
