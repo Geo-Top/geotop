@@ -5,7 +5,7 @@ const ServiceCard = ({ service }) => (
     <CardMedia
       component="img"
       height="140"
-      image={"img/"+ service.title+ ".png"}
+      image={"/geotop/img/"+ service.title+ ".png"}
       alt={service.title}
     />
     <CardContent>

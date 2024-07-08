@@ -85,7 +85,7 @@ export default function Header({
       <List>
         {navItems.map((item) => (
           // eslint-disable-next-line react/jsx-key
-          <Link key={item}  to={`/${item.replace(/ /g, "").toLowerCase()}`} style={{ textDecoration: 'none' }}>
+          <Link key={item}  to={`/geotop/${item.replace(/ /g, "").toLowerCase()}`} style={{ textDecoration: 'none' }}>
             <ListItem disablePadding>
               <ListItemButton  sx={{ color: theme.palette.blackbg.main , textAlign: "center"}}>
                 <ListItemText primary={item} />
@@ -101,7 +101,7 @@ export default function Header({
         </Typography>
         {servicesItems.map((item) => (
           // eslint-disable-next-line react/jsx-key
-          <Link key={item} to={`/${item.replace(/ /g, "").toLowerCase()}page`} style={{ textDecoration: 'none' }}>
+          <Link key={item} to={`/geotop/${item.replace(/ /g, "").toLowerCase()}page`} style={{ textDecoration: 'none' }}>
             <ListItem  disablePadding>
               <ListItemButton  sx={{ color: theme.palette.blackbg.main , textAlign: "center"}} >
                 <ListItemText primary={item} />
