@@ -1,10 +1,29 @@
-
 import { TextField, Button, Typography, Container, Grid, Paper } from '@mui/material';
+import emailjs from 'emailjs-com';
+import { useState } from 'react';
 
 const ContactUs = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
-    // هنا يمكنك إضافة منطق إرسال النموذج، مثل الاتصال بواجهة برمجة تطبيقات لإرسال البيانات
+    emailjs.send('service_3jpw73k', 'template_m4x3rzq', formData, 'eqbYXN6OQNtnKwyyG')
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        alert('Message sent successfully!');
+      }, (err) => {
+        console.log('FAILED...', err);
+        alert('Failed to send message. Please try again.');
+      });
   };
 
   return (
@@ -24,6 +43,8 @@ const ContactUs = () => {
                 label="Name"
                 name="name"
                 autoComplete="name"
+                value={formData.name}
+                onChange={handleChange}
               />
             </Grid>
             <Grid item xs={12}>
@@ -35,6 +56,8 @@ const ContactUs = () => {
                 label="Email"
                 name="email"
                 autoComplete="email"
+                value={formData.email}
+                onChange={handleChange}
               />
             </Grid>
             <Grid item xs={12}>
@@ -47,6 +70,8 @@ const ContactUs = () => {
                 name="message"
                 multiline
                 rows={4}
+                value={formData.message}
+                onChange={handleChange}
               />
             </Grid>
             <Grid item xs={12}>
