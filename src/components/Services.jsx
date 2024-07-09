@@ -96,7 +96,7 @@ export default function ServicesCom() {
         </Container>
         <div className="cards-services">
           {services.map((service) => (
-            <Link key={service.id} to={`/${service.title.replace(/ /g, "").toLowerCase()}page`} style={{ textDecoration: 'none'  }}>
+            <Link key={service.id} to={`/geotop/${service.title.replace(/ /g, "").toLowerCase()}page`} style={{ textDecoration: 'none'  }}>
             <Box
               
               sx={{ bgcolor: "primary.main" , color:"blackbg.main"}}
@@ -122,24 +122,3 @@ export default function ServicesCom() {
     </Box>
   );
 }
-
-// <div className="cards-services">
-// <Box
-//   sx={{
-//     bgcolor: "primary.main",
-//   }}
-//   className="card-services shape gradient-301"
-//   id="shape"
-// >
-//   <div className="icon">
-//     <img src="img/gis.jpg" alt="Service Icon" />
-//   </div>
-//   <div className="details">
-//     <h2>GIS</h2>
-//     <p>
-//       Comprehensive GIS services for spatial analysis, mapping, and
-//       data visualization
-//     </p>
-//   </div>
-// </Box>
-// </div>
